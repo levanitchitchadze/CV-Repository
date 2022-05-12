@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TA_Team3 Final Project">
+
+    <listeners>
+        <listener class-name="Backend.Utils.ScreenshotListener"/>
+    </listeners>
+
+    <test name="Functional Test">
+        <classes>
+            <class name="Case1FullTest"/>
+            <class name="Case2FullTest"/>
+        </classes>
+    </test>
+    
+</suite>
