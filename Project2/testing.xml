@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+
+
+<test name="ChromeTest">
+    <parameter name="browser" value="Chrome" />
+
+    <groups>
+        <run>
+            <include name="Resgression1"/>
+            <include name="Resgression2"/>
+        </run>
+    </groups>
+
+        <classes>
+            <class name="LoginTests"/>
+            <class name="LoginTests"/>
+            <class name="LoginTests"/>
+        </classes>
+
+</test>
+
+</suite>
+
